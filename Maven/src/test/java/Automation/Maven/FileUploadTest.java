@@ -16,6 +16,7 @@ public class FileUploadTest {
   public void upload() throws Exception {
 	WebElement  focus= driver.findElement(By.xpath("//*[@id=\"pick-files\"]/span[2]"));
 	 focus.click();
+	 Thread.sleep(2000);
 	 //focus.sendKeys ("C:\\Users\\edu1\\Desktop\\Sanjay ramaswami.pdf");
 	 Runtime.getRuntime().exec("C:\\Users\\edu1\\Desktop\\fileupload.exe");
   }
