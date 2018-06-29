@@ -26,7 +26,9 @@ public class FileUploadTest {
 	  driver=new ChromeDriver();
 	  driver.get("http://www.pdf2doc.com");
 	  driver.manage().window().maximize();
-;	  
+	 
+	  
+	  
   }
 
 }
